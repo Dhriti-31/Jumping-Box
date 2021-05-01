@@ -15,13 +15,13 @@ function setup(){
     block1 = createSprite(0,580,400,30);
     block1.shapeColor = "blue";
 
-    block2 = createSprite(295,580,300,30);
+    block2 = createSprite(305,580,200,30);
     block2.shapeColor = "orange";
 
-    block3 = createSprite(400,580,200,30);
+    block3 = createSprite(510,580,200,30);
     block3.shapeColor = "red";
 
-    block4 = createSprite(600,580,100,30);
+    block4 = createSprite(715,580,200,30);
     block4.shapeColor = "green";
 
     ball = createSprite(random(20,750),100, 40,40);
