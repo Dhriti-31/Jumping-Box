@@ -37,7 +37,7 @@ function draw() {
 
     
     //write code to bounce off ball from the block1 
-    if(block1.isTouching(ball) ball.bounceOff(block1)){
+    if(block1.isTouching(ball) && ball.bounceOff(block1)){
         ball.shapeColor = "blue";
         music.play();
     }
